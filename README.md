@@ -1,6 +1,6 @@
 ## CRUD_Project
 
-###CRUD operations in Angular
+### CRUD operations in Angular
 
 In this project i did CRUD operations in angular. i stored data in JSON format By using json-server 
 
