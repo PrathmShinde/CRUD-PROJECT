@@ -1,27 +1,21 @@
-# CrudProject
+## CRUD_Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+CRUD operations in Angular
+In this project i did CRUD operations in angular. i stored data in JSON format By using json-server 
 
-## Development server
+after downloading this zip file, you need to install angular material in this project by using below command
+## ng add @angular/material
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Also for json, you need to install npm packages of json. By following commands you can install json pakages
+## npm i -g json-server 
 
-## Code scaffolding
+After that you have to start json-server by using below command (It will create db.json file)
+## json-server --watch db.json
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Add below empty array in db.json file
+# "employee": [] 
 
-## Build
+your data will be stored in this array in the json format(key:value) pairs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For your reference, I have attached a json file with this source code. 
+Put this json file outside the src folder and inside the project folder.
