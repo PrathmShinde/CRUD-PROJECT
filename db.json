@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "FirstnameFeild": "Prathmesh",
+      "LastnameFeild": "Shinde",
+      "emailFeild": "shindepra5793@gmail.com",
+      "dateFeild": "2023-05-01T18:30:00.000Z",
+      "genderFeild": "male",
+      "educationFeild": "Graduate",
+      "companyFeild": "google",
+      "experienceFeild": 4,
+      "packageFeild": 12,
+      "id": 1
+    },
+    {
+      "FirstnameFeild": "Prathmesh",
+      "LastnameFeild": "Shinde",
+      "emailFeild": "shindepra5793@gmail.com",
+      "dateFeild": "2023-05-09T18:30:00.000Z",
+      "genderFeild": "male",
+      "educationFeild": "Post Graduate",
+      "companyFeild": "google",
+      "experienceFeild": 3,
+      "packageFeild": 12,
+      "id": 2
+    }
+  ]
+}
